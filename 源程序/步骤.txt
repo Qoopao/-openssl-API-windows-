@@ -1,0 +1,27 @@
+1.安装openssl	http://slproweb.com/products/Win32OpenSSL.html
+2.工程的pro文件下
+	win32 {
+INCLUDEPATH += $$quote(C:/Program Files/OpenSSL-Win64/include)
+LIBS += -L$$quote(C:/Program Files/OpenSSL-Win64/lib) -llibcrypto
+}
+3.将OpenSSL安装目录C:\Program Files\OpenSSL-Win64\bin下的，libcrypto-1_1-x64.dll拷贝到，与exe同一目录下。
+
+
+
+
+
+
+
+2，指定各个按钮的点击信号的槽函数
+注意：
+（1）同一个信号可以有多个槽函数
+（2）多个信号可以有同一个槽函数
+
+建立信号槽函数的方式：
+（1） 函数名：on_按钮名_信号名
+自动连接，不用调用connect函数
+(2) 在对话框的编辑界面右击菜单点击【改变信号/槽】,增加一个函数名，然后在按钮的信号槽编辑界面指定它的槽函数。
+(3) 调用connect函数代码方式指定信号槽函数
+————————————————
+版权声明：本文为CSDN博主「我是包不同」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/x879014419/article/details/105135807

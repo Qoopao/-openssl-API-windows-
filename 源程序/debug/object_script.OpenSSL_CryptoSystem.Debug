@@ -1,0 +1,13 @@
+debug/applink.o
+debug/crypto.o
+debug/filewidget.o
+debug/main.o
+debug/mainwindow.o
+debug/paradialog.o
+debug/stringwidget.o
+debug/util.o
+debug/qrc_resource.o
+debug/moc_filewidget.o
+debug/moc_mainwindow.o
+debug/moc_paradialog.o
+debug/moc_stringwidget.o

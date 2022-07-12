@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pictures/dong.gif</file>
+        <file>pictures/background.jpg</file>
+        <file>pictures/b.jpg</file>
+        <file>pictures/go_round.gif</file>
+        <file>pictures/cat1.gif</file>
+        <file>pictures/dog1.gif</file>
+        <file>pictures/leftarrow.png</file>
+        <file>pictures/white.png</file>
+        <file>pictures/face.png</file>
+        <file>pictures/left.png</file>
+    </qresource>
+</RCC>
